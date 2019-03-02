@@ -1,0 +1,3 @@
+[submodule "OS_ChineseDrivingTestQuestionBank"]
+	path = OS_ChineseDrivingTestQuestionBank
+	url = git@github.com:li-xinyang/OS_ChineseDrivingTestQuestionBank.git
