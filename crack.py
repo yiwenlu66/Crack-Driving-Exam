@@ -165,7 +165,7 @@ def submit_answer(answer):
         print('Wrong. Correct answer: {}'.format(q['answer']))
         wrong += 1
     if subject == 2:
-        print(q['explanation'])
+        print(q.get('explanation', None))
         
         
 def write_marked():
