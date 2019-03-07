@@ -183,7 +183,7 @@ def mark():
         
 def unmark():
     if 0 <= current_index < len(qid) and qid[current_index] in marked:
-        marked.remove(current_index)
+        marked.remove(qid[current_index])
         print('Unmarked question #{}'.format(qid[current_index]))
     write_marked()
     
